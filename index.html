@@ -6,28 +6,192 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navin's Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    
+ 
 </head>
-<body class="body">
+<body class="body" id="blurrMe">
 
     <section id="home">
-    <button id="nav-btn">
-         {(#)}
-    </button>
+        <div id="sidebar">
+            
+            <div class="toggle-btn" onclick="toggleSidebar()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        
+            <div class="toggle-btn1" onclick="toggleSidebar()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        
+            <ul>
+                <li><a href="#home" ><i class="fa fa-home"> </i>  Home</a></li>
+                <li><a href="#experience"> <i class="fas fa-graduation-cap"> </i> Experience</a></li>
+                <li><a href="#skills"><i class="fas fa-laptop"></i> Skills</a></li>
+                <li><a href="#projects"> <i class="far fa-bookmark"> </i> Projects</a></li>
+                <li><a href="#education"><i class="fa fa-book" aria-hidden="true"></i> Education</a></li>
+                <li><a href="#contactMe"> <i class="fa fa-phone-square"></i>  Contact Me</a></li>
+            </ul>
+        
+        
+        </div>
+  
+     
     <div class="navbar">
         <img id="mypic" src="/1664868077389.jpeg" alt="this is me">
-    <p>Navin Rawat</p>
+    <p>Hi I'm <span class="name"> Navin Rawat</span></p>
     </div>
     <div class="content">
+        <br>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum neque, aliquam quas totam, inventore, soluta officia exercitationem a adipisci ad id natus libero. Voluptatum molestiae voluptatem a iure sed rerum molestias similique numquam ipsum repellat, autem dolores quibusdam placeat aliquid atque fuga magnam est libero eveniet odio. Itaque dolorem ut quas aut recusandae quo veritatis omnis quae deleniti consectetur nisi, tempora aspernatur earum nam, vero nihil, velit dolore mollitia voluptas! Numquam error porro sed odio saepe vero ipsum inventore eligendi rerum? Modi cumque numquam eaque qui, sapiente vel vitae. Vitae, ut pariatur nesciunt delectus maiores repellendus aliquam fuga at dignissimos? ipsum dolor sit amet consectetur, adipisicing elit. Porro, voluptate! Sit quidem perferendis consequuntur quod magni suscipit culpa quas beatae odio accusamus architecto quasi illum velit quo, sint ab quisquam!</p>
  
     </div>
-
+    <img id="home-img" src="/CV_Builder_2x.png" alt="">
     </section>
-    <section id="achievements">
-        <span id="title">Achievements</span></section>
-    <section id="skills">  <span id="title">Skills</span></section>
-    <section id="projects"> <span id="title">Projects</span></section>
-    <section id="education"> <span id="title">Education</span></section>
-    <section id="contactMe"> <span id="title">Contact Me</span></section>
+    
+    <section id="experience" ><div id="title"> Experience</div>
+       
+        <br>
+        <div class="exp" id="ex1"></div>
+        <div class="exp" id="ex2"></div>
+        <div class="exp" id="ex3"></div>
+    
+    </section>
+
+    <section id="skills">  <div id="title"> Skills</div>
+        <!-- <marquee behavior="scroll" direction="left"> -->
+    <div id="skills" >
+      
+        <div id="skill-details">1
+         
+        </div>
+        <div id="skill-details">2
+           
+        </div>
+        <div id="skill-details">3
+          
+        </div>
+        <div id="skill-details">4
+           
+        </div>
+        <div id="skill-details">5 
+           
+        </div>
+        <div id="skill-details">6 
+           
+        </div>
+        <div id="skill-details">7
+             
+        </div>
+        <div id="skill-details">8
+           
+        </div>
+  
+    </div>
+
+    <div id="skills"> 
+         
+            <div id="skill-details">9
+              
+            </div>
+            <div id="skill-details">10
+               
+            </div>
+            <div id="skill-details">11
+               
+            </div>
+            <div id="skill-details">12
+                
+            </div>
+           
+            <div id="skill-details">13
+               
+            </div>
+            <div id="skill-details">14
+                
+            </div>
+            <div id="skill-details">15
+               
+            </div>
+            <div id="skill-details">16
+                
+            </div>
+           
+    </div>
+
+   
+    </section>
+
+    
+    <section id="projects"> 
+        <div id="title">Projects</div>
+        <!-- <span id="title">Education</span> -->
+       <br>
+       
+        <div id="project" >1</div>
+        <div id="project" >2</div>
+        <div id="project" >2</div>
+   
+    </section>
+    <section id="education"> <span id="title">Education</span>
+
+        <br><br>
+        <img id="edu-image" src="/CV_Examples_2x.png" alt=""  >
+        <div class="edu" id="ex1"><span id="child-edu">SSC  :</span></div>
+        <div class="edu" id="ex2"><span id="child-edu">HSC :</span></div>
+        <div class="edu" id="ex3"><span id="child-edu">B-TECH :</span></div>
+    
+    </section>
+    <section id="contactMe"> <span id="title" !important>Contact Me</span>
+      <br>
+      <br>
+      <br>
+      <br>
+        <!-- <div class="contactdetails"> -->
+     <div>
+        <img class="email-image" src="/how-to-header.png" alt="this is image">
+            <input type="text" name="name" id="visitorname" placeholder="Write Your Name Here">
+            <span id="yourname">@ Navin Rawat</span>
+    </div>
+    <br>
+    <br>
+    <div class="contactMedetails">
+            <input type="email" name="name" id="email" placeholder="Write Your Email Here"  >
+            <span id="youremail">@ navinrawat11032004@gmail.com</span>
+             
+    </div>
+    <br>
+    <br>
+    <div class="contactMedetails">
+            <input type="tel" name="name" id="email" placeholder="Write Your Number Here">
+            <span id="yournumber">@ +919328010281</span>
+            
+    </div>
+    <br> 
+    <br>
+    <br class="contactMedetails"> 
+            <textarea name="Message" id="Message" cols="30" rows="10" placeholder="Write Your Message Here"></textarea>
+            
+    </div>
+  
+    </p>
+    <span id="yourmessage">@ Thanks For Your Feedback - Will Apprieciate It.</span>
+    </section>
+
+
+       
+    <script>
+        
+        function toggleSidebar(){
+            document.getElementById("sidebar").classList.toggle('active');
+        }
+        
+   
+        
+        
+        </script>
 </body>
 </html>

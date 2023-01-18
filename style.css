@@ -1,109 +1,417 @@
 .body{
-   
-    background-color: rgb(250, 250, 252);
+    margin-top: 0%;
+    
+    background-color: rgb(0, 0, 0);
     margin-left: 0%;
-   
+    margin-right: 0%;
+    margin-bottom: 0%;
+    overflow-wrap: break-word;
+}
+#sidebar  {
+    /* position: fixed;  */
+    position: fixed;
+    left: -300px; 
+    background: rgb(13, 13, 14) ;
+    margin-top: 5vh;
+    height: 90%; 
+    width: 300px; 
+    transition: 700ms;
+    border: solid ;
+    border-radius: 10px;
+    border-color:  rgb(32, 32, 156);
+    /* overflow: hidden; */
+    /* background: ; */
+  
 }
 
+#sidebar ul{
+    list-style: none;
+    margin-top: 30px
+
+}
+        
+#sidebar ul li{
+    content: '';
+    width: 100%; 
+    padding: 4vh 20px;  
+    box-sizing: border-box; 
+    font-size: 150%;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-bottom: 1px solid rgb(17, 18, 61);
+  
+}
+#sidebar ul li ::after {
+   
+    border-width: 100%;
+    border-width: 0%;
+    transition: 2s;
+    bottom: 10px;
+    color:rgb(32, 32, 156);
+}
+
+#sidebar ul li a{
+    color:rgb(32, 32, 156); 
+    text-decoration: none; 
+    font-family: sans-serif;
+  
+}
+
+.toggle-btn{ 
+    position: absolute; 
+    /* margin-left: 1550px;  */
+    margin-left: 115vw;
+    margin-right: 10px;
+    left: 200; 
+    background: scroll;
+    /* background: none;  */
+    top: 10px; 
+    cursor: pointer;
+    transition: ease-in 800ms;
+    transition-delay: 800ms;
+    transform-origin:left;
+}
+
+.toggle-btn span{
+    width: 50px;
+    height: 10px; 
+    background:  rgb(32, 32, 156);
+    display: block; 
+    margin-bottom: 6px;
+    border-radius: 5px;
+    transition: ease-in 800ms;
+    transition-delay: 900ms;
+}
+
+.toggle-btn span:last-child{
+    margin-bottom: 0;
+}
+
+
+.toggle-btn1{ 
+    position: absolute; 
+    margin-left: -55px; 
+    left: 200; 
+    background: scroll;
+    /* background: none;  */
+    top: 10px; 
+    cursor: pointer;
+}
+
+.toggle-btn1 span{
+    width: 50px;
+    height: 10px; 
+    background:  rgb(32, 32, 156); 
+    display: block; 
+    margin-bottom: 6px;
+    border-radius: 5px;
+}
+
+.toggle-btn1 span:last-child{
+    margin-bottom: 0;
+}
+
+
+
+.active{
+    left: 40px !important;
+    backface-visibility: hidden;
+    background-blend-mode: color-burn;
+}
+
+
 .navbar{
-    padding-top: 0%;
+    padding-top: 2%;
     font: bolder;
     font-style: italic;
     font-style: bold;
-    color:  rgb(236, 10, 10);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:  rgb(227, 227, 235);
+    font-family: cursive;
     font-size: 400%;
     font-weight: 900;
 }
 
+.name{
+    color: blue;
+}
+#sidebar ul li a{
+    color: antiquewhite;
+}
+#sidebar ul li a i{
+    color: blue;
+}
+.content{
+    color: aliceblue;
+}
 #mypic{
     float: right;
-    width: 15%;
-    border-color: black;
+    position: relative;
+    width: 18%;
+    border-color: rgb(32, 32, 156);
+    border-width: 8px;
     border-style: solid;
-    margin-right: 70px;
-    border-radius: 100px;
+    margin-right: 5vw;
+    border-radius: 100%;
+    margin-top: 10vh;
 }
 #nav-btn{
-    size: 50%;
+    size: 100%;
     align-items: flex-end;
-    float:centre;
+    float:left;
     align-self: baseline;
     width: 50px;
     height: 30px;
-    background-color: rgb(231, 21, 21);
+    margin-top: 3vh;
+    font-size: 18px;
+    /* background-color: rgzb(231, 21, 21); */
 }
 #nav-btn:hover{
-    background-color: rgb(85, 42, 165);
+    background-color: rgb(17, 0, 255);
  
 }
 section{
     padding-left: 50px;
+    padding-right: 50px;
     height: 100vh;
-    width: 100%;
-
+    transition: 2s;
+   
 }
+
+
 #title{
-    border: 7px;
-    border-top: 0px;
+ 
+    /* border: 7px;
+    border-top: 0px; */
     padding-top: -20px;
     padding-left: 10px;
     padding-right: 5px;
-    border-style: solid;
-    border-radius: 20px;
+    margin-bottom: 20px;
+    color: aliceblue;
+    width: 95% ;
+    transition: ease-in 300ms;
+    font-size: 300%;
+    /* border-style: solid;
+    border-radius: 20px; */
 }
 #home{
-    color:rgb(6, 134, 38);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 100%;
-    background-color: rgb(0, 0, 0);
+    color:rgb(32, 32, 156);
+    font-family: cursive;
+    /* font-size: 100%; */
+    background-color:rgb(0, 0, 0);
  }
-#achievements{
-    color:rgb(0, 0, 0);
+.content{
+    width: 70%;
+    font-size: 100%;
+}
+ #home-img{
+    position: absolute;
+    right: 0vw;
+    bottom: -30vh;
+ }
+#experience{
+
+    color:rgb(32, 32, 156);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 300%;
-    background-color: rgb(236, 10, 10);
+    /* font-size: 300%; */
+    background-color:rgb(0, 0, 0);
     font: bolder;
     font-style: italic;
     font-weight: 900;
-    
+    transition: ease-in 800ms;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
  }
+.exp , .edu{
+    transition: ease-in;
+    width: 50%;
+    height: 15vh;
+    background-color: rgb(0, 0, 0);
+    transition: ease-in;
+    border: solid;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    margin-top: 25px;
+    text-align: left;
+    align-items: baseline;
+    
+}
+.exp:hover,.edu:hover {
+    transition: 1s;
+    /* transform: scale(1.); */
+    position: relative;
+   width: 65%;
+   color: rgb(255, 255, 255);
+   background-color: rgb(7, 14, 53);
+   border-radius: 100px;
+}
+#child-edu{
+    display: flex;
+    font-size: 140%;
+    height: 2em;
+    justify-content: left;
+    padding: 1.5em;
+    align-content: center;
+}
+#edu-image{
+    margin-top: 20vh;
+    right: 65vw;
+    position: absolute;
+    width: 30%;
+}
  
 #skills{
-    color:rgb(26, 6, 207);
+    margin: 0px  20px 00 20px ;
+    padding: 2vh 0px 2vh 0px;
+    display: flex;
+    flex-wrap: wrap;
+    color:rgb(255, 255, 255);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 300%;
-    background-color: rgb(9, 255, 0);
+    background-color:rgb(0, 0, 0);
     font: bolder;
     font-style: italic;
     font-weight: 900;
+    transition: ease-in 800ms;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    flex-shrink: 0;
+ }
+
+
+ #skill-details{
+
+justify-content: space-around;
+margin: 0px 20px 0px 20px;
+width: 25vh;
+height: 25vh;
+border-style: solid;
+border-radius: 15px;
+text-align: center;
+
+animation: scrolling 10s linear infinite;
+ }
+
+/* @keyframes scrolling{
+    0%{
+        transform: translateX(100vw);
+    }
+    100%{
+        transform: translateX(-120vw);
+    } */
+/* } */
+
+ #skill-details:hover {
+    transform: scale(1.1);
+    border-color: blue;
+    transition: 300ms;
  }
 #projects{
-    color: rgb(9, 255, 0);
+    color: rgb(255, 255, 255);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 300%;
-    background-color: rgb(26, 6, 207);
+    /* font-size: 300%; */
+   
+    background-color:rgb(0, 0, 0);
     font: bolder;
     font-style: italic;
     font-weight: 900;
+    transition: ease-in 800ms;
+    display: flex;
+    flex-wrap: wrap;
+  
+    align-items: center;
+    align-content: space-around;
+ 
+ }
+
+#project{
+    width: 20%;
+    height: 60%;
+    border-color: blue;
+    border: solid;
+    border-radius: 20px;
+    align-items: center;
+    /* justify-content: center; */
+    /* align-content: space-between; */
+    margin: 0px 5vw 2vh 5vw;
+    text-align: center;
+}
+
+#project:hover{
+    transform: scale(1.1);
+    border-color: blue;
+    transition: 300ms;
  }
 #education{
-    color:rgb(0, 0, 0);
+    color:rgb(255, 0, 0);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 300%;
-    background-color: rgb(9, 255, 0);
+    /* font-size: 300%; */
+    background-color:rgb(0, 0, 0);
     font: bolder;
     font-style: italic;
     font-weight: 900;
+    transition: ease-in 800ms;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-end;
  }
 #contactMe{
    
-    color: rgb(9, 255, 0);
+    color: rgb(255, 255, 255);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 300%;
-    background-color: black;
+    /* font-size: 300%; */
+    background-color:rgb(0, 0, 0);
     font: bolder;
     font-style: italic;
     font-weight: 900;
+    transition: ease-in 800ms;
  }
- 
+ /* .contactMedetails{
+    width: 50%;
+ } */
+ #yourname,#youremail,#yournumber{
+    padding-left: 10vw;
+    font-size: 2vw;
+    font-family: cursive;
+ }
+ #yourmessage{
+    padding-left: 15vw;
+    font-size: 2vw;
+    font-family: cursive;
+ }
+ .email-image{
+    width: 20%;
+    position: absolute;
+    margin-top: 22em;
+    right: 0vw;
+    /* bottom: 0px; */
+ }
+ #visitorname, #email,#contactNo{
+    
+    size: 120%;
+    width: 30vw;
+    height: 30px;
+    background-color: black;
+    border-color: blue;
+    border-radius: 10px;
+    color: rgb(219, 13, 13);
+    text-align: left;
+    padding-left: 20px;
+    font-family: cursive;
+    border-width: 3px;
+ }
+ #visitorname:hover, #email:hover,#contactNo:hover,#Message:hover{
+    border-color: white;
+   
+ }
+#Message{
+    size: 110%;
+    width: 30vw;
+    padding-left: 20px;
+    background-color: black;
+    border-color:  blue;
+    border-radius: 10px;
+    color: rgb(219, 13, 13);
+    border-width: 3px;
+ }
