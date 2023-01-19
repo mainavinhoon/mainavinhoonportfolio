@@ -292,7 +292,7 @@ section{
 
  #skill-details{
 
-justify-content: space-around;
+justify-content: center;
 margin: 0px 20px 0px 20px;
 width: 12vw;
 height: 12vw;
@@ -303,6 +303,31 @@ flex-shrink: 0;
 animation: scrolling 10s linear infinite;
  }
 
+ .html-img{
+    background-color: black;
+    padding-top: 15px;
+    padding-left: 10px;
+    width: 7vw;
+ }
+ .css-img,.js-img{
+    background-color: black;
+    padding-top: 15px;
+    width: 7vw;
+ }
+ .train-img-1{
+    width: 16vw;
+    height: 20vw;
+    background-color: rgb(0, 0, 0);
+    color: blue;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+ }
+ .train-img-2{
+    width: 16vw;
+    height: 20vw;
+    background-color: rgb(0, 0, 0);
+    color: blue;
+ }
  /* @keyframes scrolling{
     0%{
         transform: translateX(100vw);
@@ -419,20 +444,7 @@ animation: scrolling 10s linear infinite;
     border-width: 3px;
  }
 
- .train-img-1{
-    width: 16vw;
-    height: 20vw;
-    background-color: rgb(0, 0, 0);
-    color: blue;
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
- }
- .train-img-2{
-    width: 16vw;
-    height: 20vw;
-    background-color: rgb(0, 0, 0);
-    color: blue;
- }
+
  #visitorname:hover, #email:hover,#contactNo:hover,#Message:hover{
     border-color: white;
    
