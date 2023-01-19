@@ -111,7 +111,15 @@
     margin-bottom: 0;
 }
 
-
+#sidebar ul li a{
+    color: antiquewhite;
+}
+#sidebar ul li a i{
+    color: blue;
+}
+.content{
+    color: aliceblue;
+}
 
 .active{
     left: 40px !important;
@@ -122,27 +130,28 @@
 
 .navbar{
     padding-top: 2%;
-    font: bolder;
+   
     font-style: italic;
-    font-style: bold;
+  
     color:  rgb(227, 227, 235);
     font-family: cursive;
-    font-size: 400%;
+    font-size: 100%;
     font-weight: 900;
 }
 
 .name{
+    padding-top: 20px;
     color: blue;
+    font-size: 7vw;
 }
-#sidebar ul li a{
-    color: antiquewhite;
+.hello{
+    padding-top: 0px;
+    font-size: 2vw;
 }
-#sidebar ul li a i{
-    color: blue;
+.typing{
+    color:blue;
 }
-.content{
-    color: aliceblue;
-}
+
 #mypic{
     float: right;
     position: relative;
@@ -173,8 +182,9 @@ section{
     padding-left: 50px;
     padding-right: 50px;
     height: 100vh;
-    transition: 2s;
-   
+    transition: flip 2s;
+    /* transition: steps(2s); */
+    overflow: hidden
 }
 
 
@@ -204,6 +214,7 @@ section{
     font-size: 100%;
 }
  #home-img{
+    width: 40%;
     position: absolute;
     right: 0vw;
     bottom: -30vh;
@@ -237,7 +248,7 @@ section{
     
 }
 .exp:hover,.edu:hover {
-    transition: 1s;
+    transition:  1s;
     /* transform: scale(1.); */
     position: relative;
    width: 65%;
@@ -283,28 +294,29 @@ section{
 
 justify-content: space-around;
 margin: 0px 20px 0px 20px;
-width: 25vh;
-height: 25vh;
+width: 12vw;
+height: 12vw;
 border-style: solid;
 border-radius: 15px;
 text-align: center;
-
+flex-shrink: 0;
 animation: scrolling 10s linear infinite;
  }
 
-/* @keyframes scrolling{
+ /* @keyframes scrolling{
     0%{
         transform: translateX(100vw);
     }
     100%{
-        transform: translateX(-120vw);
-    } */
-/* } */
+        transform: translateX(-100vw);
+    }
+ } */
 
  #skill-details:hover {
     transform: scale(1.1);
     border-color: blue;
-    transition: 300ms;
+    transition:  300ms;
+  
  }
 #projects{
     color: rgb(255, 255, 255);
@@ -370,10 +382,15 @@ animation: scrolling 10s linear infinite;
  /* .contactMedetails{
     width: 50%;
  } */
+
+ .fa-user-circle{
+    color: blue;
+ }
  #yourname,#youremail,#yournumber{
     padding-left: 10vw;
     font-size: 2vw;
     font-family: cursive;
+    color: aliceblue;
  }
  #yourmessage{
     padding-left: 15vw;
@@ -401,6 +418,21 @@ animation: scrolling 10s linear infinite;
     font-family: cursive;
     border-width: 3px;
  }
+
+ .train-img-1{
+    width: 16vw;
+    height: 20vw;
+    background-color: rgb(0, 0, 0);
+    color: blue;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+ }
+ .train-img-2{
+    width: 16vw;
+    height: 20vw;
+    background-color: rgb(0, 0, 0);
+    color: blue;
+ }
  #visitorname:hover, #email:hover,#contactNo:hover,#Message:hover{
     border-color: white;
    
@@ -414,4 +446,22 @@ animation: scrolling 10s linear infinite;
     border-radius: 10px;
     color: rgb(219, 13, 13);
     border-width: 3px;
+ }
+ .github-img{
+width: 3vw;
+background-color: rgb(207, 207, 212);
+margin-left: 20vw;
+margin-bottom: 80px;
+border-radius: 200px;
+ }
+ .linkdin-img{
+    width: 3vw;
+    background-color: rgb(207, 207, 212);
+    margin-left: 2vw;
+    margin-bottom: 80px;
+    border-radius: 200px;
+ }
+ .github-img:hover, .linkdin-img:hover{
+    transform: scale(1.2);
+    background-color: blue;
  }

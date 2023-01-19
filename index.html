@@ -13,7 +13,7 @@
 <body class="body" id="blurrMe">
 
     <section id="home">
-        <div id="sidebar">
+        <!-- <div id="sidebar">
             
             <div class="toggle-btn" onclick="toggleSidebar()">
                 <span></span>
@@ -37,12 +37,15 @@
             </ul>
         
         
-        </div>
+        </div> -->
   
      
     <div class="navbar">
         <img id="mypic" src="/1664868077389.jpeg" alt="this is me">
-    <p>Hi I'm <span class="name"> Navin Rawat</span></p>
+        <br>
+        <br>
+    <p> <span class="name"> Navin Rawat</span></p>
+       <h1 class="hello">Hey ,  Im' a <span class="typing"></span></h1>
     </div>
     <div class="content">
         <br>
@@ -62,11 +65,12 @@
     </section>
 
     <section id="skills">  <div id="title"> Skills</div>
-        <!-- <marquee behavior="scroll" direction="left"> -->
+       <marquee scrollamount="20" behavior="scroll" direction="left" onmouseleave="start();"; onmouseover="stop();" >
     <div id="skills" >
       
-        <div id="skill-details">1
-         
+        <div id="skill-details-train-1">
+            <img  class="train-img-1" src="/train (3).png" alt="">
+    
         </div>
         <div id="skill-details">2
            
@@ -82,46 +86,53 @@
         </div>
         <div id="skill-details">6 
            
-        </div>
-        <div id="skill-details">7
+        </div> 
+        <!-- <div id="skill-details">7
              
         </div>
         <div id="skill-details">8
            
-        </div>
-  
+        </div> --> 
+    
     </div>
-
+</marquee>
+<marquee scrollamount="20" behavior="scroll" direction="right" onmouseleave="start();"; onmouseover="stop();" >
     <div id="skills"> 
-         
-            <div id="skill-details">9
-              
-            </div>
-            <div id="skill-details">10
-               
-            </div>
-            <div id="skill-details">11
-               
-            </div>
-            <div id="skill-details">12
-                
-            </div>
+        <div id="skill-details">7
+       
+        </div>
+        <div id="skill-details">8
            
-            <div id="skill-details">13
-               
-            </div>
-            <div id="skill-details">14
-                
-            </div>
-            <div id="skill-details">15
-               
-            </div>
-            <div id="skill-details">16
-                
-            </div>
+        </div>
+        <div id="skill-details">9
+          
+        </div>
+        <div id="skill-details">10
+           
+        </div>
+        <div id="skill-details">11 
+           
+        </div>
+        <div id="skill-details-train-2">
+            <img  class="train-img-2" src="/train (3).png" alt="">
+        </div> 
+        
+        <!-- </div>
+        <div id="skill-details">9
+          
+        </div>
+        <div id="skill-details">10
+           
+        </div>
+        <div id="skill-details">11 
+           
+        </div>
+        <div id="skill-details">12 
+           
+        </div>  -->
            
     </div>
-
+</marquee>
    
     </section>
 
@@ -154,44 +165,54 @@
      <div>
         <img class="email-image" src="/how-to-header.png" alt="this is image">
             <input type="text" name="name" id="visitorname" placeholder="Write Your Name Here">
-            <span id="yourname">@ Navin Rawat</span>
+            <span id="yourname"><i class="fa fa-user-circle" aria-hidden="true"></i> Navin Rawat</span>
     </div>
     <br>
     <br>
     <div class="contactMedetails">
             <input type="email" name="name" id="email" placeholder="Write Your Email Here"  >
-            <span id="youremail">@ navinrawat11032004@gmail.com</span>
+            <span id="youremail"><a id="yourmail" href="mailto:navinrawat11032004@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a> navinrawat11032004@gmail.com</span>
              
     </div>
     <br>
     <br>
     <div class="contactMedetails">
             <input type="tel" name="name" id="email" placeholder="Write Your Number Here">
-            <span id="yournumber">@ +919328010281</span>
+            <span id="yournumber"><a id="yourmail" href="tel: 9328010281" target="_blank"><i class="fa fa-phone-square" aria-hidden="true"></i></a> +919328010281</span>
             
     </div>
     <br> 
+    
     <br>
     <br class="contactMedetails"> 
             <textarea name="Message" id="Message" cols="30" rows="10" placeholder="Write Your Message Here"></textarea>
             
     </div>
-  
+    <!-- <span><i class="fa fa-instagram" aria-hidden="true"></i>dsfsf</span> -->
+    <a href="http://github.com/mainavinhoon" target="_blank"><img class="github-img" src="/github-sign.png" alt=""></a>
+    <a href="http://www.linkedin.com/in/navin-rawat/" target="_blank"><img class="linkdin-img" src="/linkedin (1).png" alt=""></a>
+    <a href="https://www.instagram.com/mainavinhoon/" target="_blank"><img class="linkdin-img" src="/instagram.png" alt=""></a>
+    <a href="https://discord.com/channels/913060781694787634" target="_blank"><img class="linkdin-img" src="/discord.png" alt=""></a>
     </p>
-    <span id="yourmessage">@ Thanks For Your Feedback - Will Apprieciate It.</span>
+    <span id="yourmessage">Thanks For Visiting - Made By Navin Rawat</span>
+    
     </section>
 
 
-       
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer">
+    </script>
+    <script >      
+        var typed = new Typed(".typing",{
+            strings:["Web Developer","Freelancer","Editor","Canva Designer","Logo Designer","Coder"],
+            typespeed:100,
+            backSpeed:60,
+            loop:true
+        })
+        </script>
     <script>
-        
         function toggleSidebar(){
             document.getElementById("sidebar").classList.toggle('active');
         }
-        
-   
-        
-        
         </script>
 </body>
 </html>
