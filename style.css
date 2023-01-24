@@ -148,7 +148,7 @@
         top: 50% !important;
         align-self: center;
      
-        margin-right: 20% !important;
+        margin-right: 30% !important;
         margin-left: 31% !important;
         
         border-radius: 100%;
@@ -170,7 +170,7 @@
     
     .name{
         margin-right: 15% !important;
-        margin-left: 20% !important;
+        margin-left: 25% !important;
         left: 50% !important;
         top: 10% !important;
         justify-content: center !important;
@@ -179,7 +179,7 @@
         font-size: 8vw !important;
     }
     .hello{
-        padding-left: 18%;
+        padding-left: 30%;
         font-size: 0.8em !important;
     }
     .typing{
@@ -535,7 +535,7 @@
      .email-image{
         width: 30% !important;
         position: absolute;
-        margin-top: 100vh !important;
+        margin-top: 60vh !important;
         right: 0vw;
         /* bottom: 0px; */
         user-select: none;
