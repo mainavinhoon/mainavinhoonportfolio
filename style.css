@@ -535,7 +535,8 @@
      .email-image{
         width: 30% !important;
         position: absolute;
-        margin-top: 60vh !important;
+        margin-top: 70vh !important;
+  
         right: 0vw;
         /* bottom: 0px; */
         user-select: none;
