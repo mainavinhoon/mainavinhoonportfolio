@@ -126,425 +126,7 @@
     backface-visibility: hidden;
     background-blend-mode: color-burn;
 } */
-@media  screen and (max-width : 600px)  {
 
-    #home{
-        height: fit-content;
-        color:rgb(32, 32, 156);
-        font-family: cursive;
-        /* font-size: 100%; */
-        background-color:rgb(0, 0, 0);
-        margin-bottom: 8em;
-
-     }
-    #mypic{
-        float:right !important;
-        
-        position: relative;
-        width: 10em !important;
-        border-color: rgb(32, 32, 156);
-        border-width: 5px;
-        border-style: solid;
-        top: 50% !important;
-        align-self: center;
-     
-        margin-right: 30% !important;
-        margin-left: 31% !important;
-        
-        border-radius: 100%;
-        margin-top: 10vh !important;
-       
-    
-    }
-    .navbar{
-        display: flex;
-        justify-content: center !important;
-        font-style: italic;
-        color:  rgb(227, 227, 235);
-        font-family: cursive;
-        font-size: 100%;
-        font-weight: 900;
-        display: initial;
-       
-    }
-    
-    .name{
-        margin-right: 15% !important;
-        margin-left: 25% !important;
-        left: 50% !important;
-        top: 10% !important;
-        justify-content: center !important;
-        color: blue;
-        text-align: center !important;
-        font-size: 8vw !important;
-    }
-    .hello{
-        padding-left: 30%;
-        font-size: 0.8em !important;
-    }
-    .typing{
-        color:rgb(65, 65, 170) !important;
-        font-size: 1.5em !important;
-    }
-
-     .content{
-        padding-left: 0px !important;
-        width: 100% !important;
-        font-size: 0.8em!important;
-        color: aliceblue;
-    }
-    #home-img{
-        width: 80% !important;
-        position: relative !important;
-        left: 10vw;
-        top: 3vh;
-        user-select: none;
-        -webkit-user-select: none;
-        -webkit-user-drag: none;
-     }
-     section{
-        padding-left: 30px !important;
-        padding-right: 30px !important;
-        height: fit-content !important;
-        min-height: 80vh !important;
-        transition: flip 2s;
-        /* transition: steps(2s); */
-        overflow: hidden;
-    }
-     #title{
- 
-        /* border: 7px;
-        border-top: 0px; */
-        padding-top: -20px;
-        padding-left: 10px;
-        padding-right: 5px;
-        margin-bottom: 20px;
-        color: aliceblue;
-        width: 60%;
-        transition: all ease-in 300ms;
-        font-size: 6vh !important;
-        /* border-style: solid;
-        border-radius: 20px; */
-    }
-
-    .exp , .edu{
-        transition: ease-in;
-        width: 50%;
-        height: 10vh !important;
-        background-color: rgb(0, 0, 0);
-        transition: ease-in;
-        border: solid;
-        border-radius: 10px;
-        color: rgb(255, 255, 255);
-        margin-top: 25px;
-        text-align: left;
-        align-items: baseline;
-        justify-content: right;
-        font-size: 20px;
-        
-    }
-    .exp:hover,.edu:hover {
-        transition:  1s;
-        /* transform: scale(1.); */
-        position: relative;
-       width: 100% !important;
-       color: rgb(255, 255, 255);
-       background-color: rgb(7, 14, 53);
-       border-radius: 100px;
-       overflow: hidden;
-       color: rgb(255, 255, 255);
-    }
- 
-    #skills{
-        margin: 0px  10px 00 10px !important;
-        padding: 2vh 0px 2vh 0px !important;
-        display: flex;
-        flex-wrap: wrap;
-        color:rgb(255, 255, 255);
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        background-color:rgb(0, 0, 0);
-        font: bolder;
-        font-style: italic;
-        font-weight: 900;
-        transition: ease-in 800ms;
-        justify-content: space-around;
-        align-items: center;
-        overflow: hidden;
-        flex-shrink: -3;
-      
-     }
-
-     .train-img-1{
-        width: 16vw;
-        height: 29vw;
-        background-color: rgb(0, 0, 0);
-        color: blue;
-        -webkit-transform: scaleX(-1);
-        transform: scaleX(-1);
-        user-select: none;
-        -webkit-user-select: none;
-        -webkit-user-drag: none;
-     }
-     .train-img-2{
-        width: 10vw;
-        height: 19vw !important;
-        background-color: rgb(0, 0, 0);
-        color: blue;
-        user-select: none;
-        -webkit-user-select: none;
-        -webkit-user-drag: none;
-     }
-    #skill-details{
-        align-content: space-around;
-        justify-content: center;
-        /* margin: 0px 20px 0px 20px; */
-        width: 10vw !important;
-        height: 10vw !important;
-        border-style: solid;
-        border-radius: 5px !important;
-        text-align: center;
-        flex-shrink: 0;
-        animation: scrolling 10s linear infinite;
-        overflow: hidden;
-     
-         }
-        #skill-name{
-            font-size: 3em !important;
-        }
-
-        .marqee{
-
-            height: 21vh !important;
-        }
-    .html-img{
-        background-color: black;
-        padding-top: 5px !important;
-        padding-left: 3px !important;
-        width: 7vw;
-        font-size: 1vw !important;
-        user-select: none;
-        -webkit-user-select: none;
-        -webkit-user-drag: none;
-     }
-     .css-img,.js-img{
-        background-color: black;
-        padding-top: 5px !important;
-        width: 7vw;
-        font-size: 1emz !important;
-        user-select: none;
-        -webkit-user-select: none;
-        -webkit-user-drag: none;
-        font-size: 2px !important;
-     }
-     #projects{
-        color: rgb(255, 255, 255);
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        /* font-size: 300%; */
-       
-        background-color:rgb(0, 0, 0);
-        font: bolder;
-        font-style: italic;
-        font-weight: 900;
-        transition: ease-in 800ms;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        align-content: space-around;
-     
-     }
-    #project{
-        width: 60vw !important;
-        height: 30vh !important;
-        border-color: blue;
-        border: solid;
-        border-radius: 20px;
-        align-items: center;
-        /* justify-content: center; */
-        /* align-content: space-between; */
-        margin: 10px 5vw 2vh 5vw !important;
-        padding-top: 20px !important;
-        text-align: center;
-    }
-    .women-project{
-        padding-top: 10px;
-        padding-bottom: 15px;
-        width: 50vw !important;
-        height: 18vh !important;
-    }
-    .shopit-img{
-        padding-top: 10px;
-        padding-bottom: 15px;
-        width: 50vw !important;
-        height: 18vh !important;
-    }
-    .play-photo{
-       
-        border-radius: 150px;
-        width: 7vw !important;
-        background-color: rgb(255, 255, 255);
-    }
-    .play-photo:hover{
-        background-color: blue;
-    }
-
-
-    #education{ 
-        color:rgb(255, 0, 0);
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        /* font-size: 300%; */
-        background-color:rgb(0, 0, 0);
-        font: bolder;
-        font-style: italic;
-        font-weight: 900;
-        transition: ease-in 800ms;
-        display: flex;
-        flex-wrap: block !important;
-        flex-direction: column;
-        align-items: center !important;
-        overflow: hidden;
-      
-     }
-     .edu{
-        transition: ease-in;
-        width: 60% !important;
-        height: 18vh !important;
-        background-color: rgb(0, 0, 0);
-        transition: ease-in;
-        border: solid;
-        border-radius: 10px;
-        color: rgb(255, 255, 255);
-        margin-top: 25px;
-        display: flex;
-        text-align: left;
-        align-items: baseline;
-        justify-content: right;
-        font-size: 20px;
-     }
-     .edu:hover {
-        transition:  1s;
-        /* transform: scale(1.); */
-        position: relative;
-       width: 65%;
-       color: rgb(255, 255, 255);
-       background-color: rgb(7, 14, 53);
-       border-radius: 5px !important;
-       overflow: hidden;
-       color: rgb(255, 255, 255);
-       padding-top: 10px;
-    }
-     #child-edu{
-        /* position: relative; */
-        flex-direction: column;
-        position: static;
-        margin-top: 0em !important;
-        font-size: 2.5vh !important;
-        text-align: center;
-        overflow: hidden;
-        padding : 0px 20px 20px 30px !important;
-    
-    }
-     #edu-image{
-      
-        width: 0% !important;
-        user-select: none;
-        -webkit-user-select: none;
-        -webkit-user-drag: none;
-    }
-
-    #contactMe{
-    
-        height: fit-content !important;
-        color: rgb(255, 255, 255);
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        /* font-size: 300%; */
-        background-color:rgb(0, 0, 0);
-        font: bolder;
-        font-style: italic;
-        font-weight: 900;
-        transition: ease-in 800ms;
-        
-     display: flex;
-     flex-wrap: wrap;
-     }
-
-     .contactdetails{
-        flex-direction: column;
-     }
-     #yourname,#youremail,#yournumber{
-        padding-left: 4vw !important;
-        margin-top: 10vh !important;
-        font-size: 4vw !important;
-        font-family: cursive;
-        color: aliceblue;
-        
-     }
-     #yourmessage{
-        padding-left: 15vw;
-        font-size: 2vw;
-        font-family: cursive;
-     }
-     #visitorname, #email,#contactNo{
-    
-        size: 0em !important;
-        width: 80vw !important;
-        height: 30px;
-        background-color: black;
-        border-color: blue;
-        border-radius: 10px;
-        color: rgb(219, 13, 13);
-        text-align: left;
-        padding-left: 0px !important;
-        margin-left: 0px !important;
-        font-family: cursive;
-        border-width: 3px;
-        
-     }
-     #Message{
-        size: 10% !important;
-        width: 80vw !important;
-        margin-top: 1vh !important;
-        background-color: black;
-        border-color:  blue;
-        border-radius: 10px;
-        color: rgb(219, 13, 13);
-        border-width: 3px;
-     }
-     .github-img{
-    width: 8vw !important;
-    background-color: rgb(207, 207, 212);
-    margin-top: 5vw !important;
-    margin-left: 50px !important;
-    border-radius: 200px;
-    user-select: none;
-    -webkit-user-select: none;
-    -webkit-user-drag: none;
-     }
-     .linkdin-img{
-        width: 8vw !important;
-        background-color: rgb(207, 207, 212);
-        margin-top: 5vw !important;
-        margin-left: 2vw !important;
-        margin-bottom: 80px;
-        border-radius: 200px;
-        user-select: none;
-        -webkit-user-select: none;
-        -webkit-user-drag: none;
-     }
-
-     .email-image{
-        width: 30% !important;
-        position: absolute;
-        margin-top: 70vh !important;
-  
-        right: 0vw;
-        /* bottom: 0px; */
-        user-select: none;
-        -webkit-user-select: none;
-        -webkit-user-drag: none;
-     }
- } 
- /*  ---------------------------Media Query For max-600px Ends Here------------------------------------------------ */
 
 .navbar{
     padding-top: 2%;
@@ -971,3 +553,426 @@ user-select: none;
     transform: scale(1.2);
     background-color: blue;
  }
+
+/* -------------------------------------------------------------------------------------------------------------------- */
+
+ @media  screen and (max-width : 560px)  {
+
+    #home{
+        height: fit-content;
+        color:rgb(32, 32, 156);
+        font-family: cursive;
+        /* font-size: 100%; */
+        background-color:rgb(0, 0, 0);
+        margin-bottom: 8em;
+
+     }
+    #mypic{
+        float:right !important;
+        
+        position: relative;
+        width: 10em !important;
+        border-color: rgb(32, 32, 156);
+        border-width: 5px;
+        border-style: solid;
+        top: 50% !important;
+        align-self: center;
+     
+        margin-right: 30% !important;
+        margin-left: 31% !important;
+        
+        border-radius: 100%;
+        margin-top: 10vh !important;
+       
+    
+    }
+    .navbar{
+        display: flex;
+        justify-content: center !important;
+        font-style: italic;
+        color:  rgb(227, 227, 235);
+        font-family: cursive;
+        font-size: 100%;
+        font-weight: 900;
+        display: initial;
+       
+    }
+    
+    .name{
+        margin-right: 15% !important;
+        margin-left: 25% !important;
+        left: 50% !important;
+        top: 10% !important;
+        justify-content: center !important;
+        color: blue;
+        text-align: center !important;
+        font-size: 8vw !important;
+    }
+    .hello{
+        padding-left: 30%;
+        font-size: 0.8em !important;
+    }
+    .typing{
+        color:rgb(65, 65, 170) !important;
+        font-size: 1.5em !important;
+    }
+
+     .content{
+        padding-left: 0px !important;
+        width: 100% !important;
+        font-size: 1em!important;
+        color: aliceblue;
+    }
+    #home-img{
+        width: 80% !important;
+        position: relative !important;
+        left: 10vw;
+        top: 3vh;
+        user-select: none;
+        -webkit-user-select: none;
+        -webkit-user-drag: none;
+     }
+     section{
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+        height: fit-content !important;
+        min-height: 80vh !important;
+        transition: flip 2s;
+        /* transition: steps(2s); */
+        overflow: hidden;
+    }
+     #title{
+ 
+        /* border: 7px;
+        border-top: 0px; */
+        padding-top: -20px;
+        padding-left: 10px;
+        padding-right: 5px;
+        margin-bottom: 20px;
+        color: aliceblue;
+        width: 90%;
+        transition: all ease-in 300ms;
+        font-size: 5vh !important;
+        /* border-style: solid;
+        border-radius: 20px; */
+    }
+
+    .exp , .edu{
+        transition: ease-in;
+        width: 50%;
+        height: 10vh !important;
+        background-color: rgb(0, 0, 0);
+        transition: ease-in;
+        border: solid;
+        border-radius: 10px;
+        color: rgb(255, 255, 255);
+        margin-top: 25px;
+        text-align: left;
+        align-items: baseline;
+        justify-content: right;
+        font-size: 20px;
+        
+    }
+    .exp:hover,.edu:hover {
+        transition:  1s;
+        /* transform: scale(1.); */
+        position: relative;
+       width: 100% !important;
+       color: rgb(255, 255, 255);
+       background-color: rgb(7, 14, 53);
+       border-radius: 100px;
+       overflow: hidden;
+       color: rgb(255, 255, 255);
+    }
+ 
+    #skills{
+        margin: 0px  10px 00 10px !important;
+        padding: 2vh 0px 2vh 0px !important;
+        display: flex;
+        flex-wrap: wrap;
+        color:rgb(255, 255, 255);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color:rgb(0, 0, 0);
+        font: bolder;
+        font-style: italic;
+        font-weight: 900;
+        transition: ease-in 800ms;
+        justify-content: space-around;
+        align-items: center;
+        overflow: hidden;
+        flex-shrink: -3;
+      
+     }
+
+     .train-img-1{
+        width: 20vw;
+        height: 19vw;
+        background-color: rgb(0, 0, 0);
+        color: blue;
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        user-select: none;
+        -webkit-user-select: none;
+        -webkit-user-drag: none;
+     }
+     .train-img-2{
+        width: 20vw;
+        height: 19vw !important;
+        background-color: rgb(0, 0, 0);
+        color: blue;
+        user-select: none;
+        -webkit-user-select: none;
+        -webkit-user-drag: none;
+     }
+    #skill-details{
+        align-content: space-around;
+        justify-content: center;
+        /* margin: 0px 20px 0px 20px; */
+        width: 10vw !important;
+        height: 10vw !important;
+        border-style: solid;
+        border-radius: 5px !important;
+        text-align: center;
+        flex-shrink: 0;
+        animation: scrolling 10s linear infinite;
+        overflow: hidden;
+     
+         }
+        #skill-name{
+            font-size: 3em !important;
+        }
+
+        .marqee{
+
+            height: 30vh !important;
+        }
+    .html-img{
+        background-color: black;
+        padding-top: 5px !important;
+        padding-left: 3px !important;
+        width: 7vw;
+        font-size: 1vw !important;
+        user-select: none;
+        -webkit-user-select: none;
+        -webkit-user-drag: none;
+     }
+     .css-img,.js-img{
+        background-color: black;
+        padding-top: 5px !important;
+        width: 7vw;
+        font-size: 1emz !important;
+        user-select: none;
+        -webkit-user-select: none;
+        -webkit-user-drag: none;
+        font-size: 2px !important;
+     }
+     #projects{
+        color: rgb(255, 255, 255);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        /* font-size: 300%; */
+       
+        background-color:rgb(0, 0, 0);
+        font: bolder;
+        font-style: italic;
+        font-weight: 900;
+        transition: ease-in 800ms;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: space-around;
+     
+     }
+    #project{
+        width: 60vw !important;
+        height: 30vh !important;
+        border-color: blue;
+        border: solid;
+        border-radius: 20px;
+        align-items: center;
+        /* justify-content: center; */
+        /* align-content: space-between; */
+        margin: 10px 5vw 2vh 5vw !important;
+        padding-top: 20px !important;
+        text-align: center;
+    }
+    .women-project{
+        padding-top: 10px;
+        padding-bottom: 15px;
+        width: 50vw !important;
+        height: 18vh !important;
+    }
+    .shopit-img{
+        padding-top: 10px;
+        padding-bottom: 15px;
+        width: 50vw !important;
+        height: 18vh !important;
+    }
+    .play-photo{
+       
+        border-radius: 150px;
+        width: 7vw !important;
+        background-color: rgb(255, 255, 255);
+    }
+    .play-photo:hover{
+        background-color: blue;
+    }
+
+
+    #education{ 
+        color:rgb(255, 0, 0);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        /* font-size: 300%; */
+        background-color:rgb(0, 0, 0);
+        font: bolder;
+        font-style: italic;
+        font-weight: 900;
+        transition: ease-in 800ms;
+        display: flex;
+        flex-wrap: block !important;
+        flex-direction: column;
+        align-items: center !important;
+        overflow: hidden;
+      
+     }
+     .edu{
+        transition: ease-in;
+        width: 60% !important;
+        height: 18vh !important;
+        background-color: rgb(0, 0, 0);
+        transition: ease-in;
+        border: solid;
+        border-radius: 10px;
+        color: rgb(255, 255, 255);
+        margin-top: 25px;
+        display: flex;
+        text-align: left;
+        align-items: baseline;
+        justify-content: right;
+        font-size: 20px;
+     }
+     .edu:hover {
+        transition:  1s;
+        /* transform: scale(1.); */
+        position: relative;
+       width: 65%;
+       color: rgb(255, 255, 255);
+       background-color: rgb(7, 14, 53);
+       border-radius: 5px !important;
+       overflow: hidden;
+       color: rgb(255, 255, 255);
+       padding-top: 10px;
+    }
+     #child-edu{
+        /* position: relative; */
+        flex-direction: column;
+        position: static;
+        margin-top: 0em !important;
+        font-size: 2.5vh !important;
+        text-align: center;
+        overflow: hidden;
+        padding : 0px 20px 20px 30px !important;
+    
+    }
+     #edu-image{
+      
+        width: 0% !important;
+        user-select: none;
+        -webkit-user-select: none;
+        -webkit-user-drag: none;
+    }
+
+    #contactMe{
+    
+        height: fit-content !important;
+        color: rgb(255, 255, 255);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        /* font-size: 300%; */
+        background-color:rgb(0, 0, 0);
+        font: bolder;
+        font-size: 10%;
+        font-style: italic;
+        font-weight: 900;
+        transition: ease-in 800ms;
+        
+     display: flex;
+     flex-wrap: wrap;
+     }
+
+     .contactdetails{
+        flex-direction: column;
+     }
+     #yourname,#youremail,#yournumber{
+     
+        padding: 20px 0px 20px 0px ;
+        font-size: 20px;
+        font-family: cursive;
+        color: aliceblue;
+        
+     }
+     #yourmessage{
+        padding-left: 15vw;
+        font-size: 10px !important;
+        font-family: cursive;
+     }
+     #visitorname, #email,#contactNo{
+    
+        size: 0em !important;
+        width: 80vw !important;
+        height: 30px;
+        background-color: black;
+        border-color: blue;
+        border-radius: 10px;
+        color: rgb(219, 13, 13);
+        text-align: left;
+        margin-bottom: 20px;
+        margin-left: 0px !important;
+        font-family: cursive;
+        border-width: 3px;
+        
+     }
+     #Message{
+        size: 10% !important;
+        width: 80vw !important;
+        margin-top: 20px ;
+        background-color: black;
+        border-color:  blue;
+        border-radius: 10px;
+        color: rgb(219, 13, 13);
+        border-width: 3px;
+     }
+     .github-img{
+    width: 8vw !important;
+    background-color: rgb(207, 207, 212);
+    margin-top: 5vw !important;
+    margin-left: 50px !important;
+    border-radius: 200px;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+     }
+     .linkdin-img{
+        width: 8vw !important;
+        background-color: rgb(207, 207, 212);
+        margin-top: 5vw !important;
+        margin-left: 2vw !important;
+        margin-bottom: 80px;
+        border-radius: 200px;
+        user-select: none;
+        -webkit-user-select: none;
+        -webkit-user-drag: none;
+     }
+
+     .email-image{
+        width: 30% !important;
+        position: absolute;
+        margin-top: 70vh !important;
+  
+        right: 0vw;
+        /* bottom: 0px; */
+        user-select: none;
+        -webkit-user-select: none;
+        -webkit-user-drag: none;
+     }
+ } 
+ /*  ---------------------------Media Query For max-560px Ends Here------------------------------------------------ */
