@@ -1008,6 +1008,21 @@ user-select: none;
         -webkit-user-drag: none;
      }
 
-
+     .sbt-btn{
+        width: 60px;
+        height: 30px;
+        background-color: black;
+        color: blue;
+        border-color: bisque;
+        margin: 10px 10px 15px 30px;
+        border-radius: 10px;
+        font-weight: bold;
+        cursor: pointer;
+     }
+     .sbt-btn:hover{
+        color: bisque;
+        border-color: blue;
+        transform: scale(1.1);
+     }
  } 
  /*  ---------------------------Media Query For max-560px Ends Here------------------------------------------------ */
