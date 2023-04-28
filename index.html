@@ -57,7 +57,7 @@
     </div>
     </section>
   
-    <section id="experience" ><div id="title"> Experience</div>
+    <section id="experience" ><div id="title"> ↪ Experience</div>
       
         <div class="exp" id="ex1"></div>
         <div class="exp" id="ex2"></div>
@@ -65,7 +65,7 @@
     
     </section>
 
-    <section id="skills">  <div id="title"> Skills</div>
+    <section id="skills">  <div id="title"> ↪ Skills</div>
        <marquee class="marqee" scrollamount="20" behavior="scroll" direction="left" onmouseleave="start();"; onmouseover="stop();" >
     <div id="skills" >
       
@@ -99,6 +99,8 @@
     
     </div>
 </marquee>
+
+
 <marquee class="marqee" scrollamount="20" behavior="scroll" direction="right" onmouseleave="start();"; onmouseover="stop();" >
     <div id="skills"> 
 
@@ -142,7 +144,7 @@
 
     
     <section id="projects"> 
-        <div id="title">Projects</div>
+        <div id="title"> ↪ Projects</div>
         <!-- <span id="title">Education</span> -->
        <br>
        
@@ -151,7 +153,7 @@
         <div id="project" >E-Commerce Website</div>
    
     </section>
-    <section id="education"> <span id="title">Education</span>
+    <section id="education"> <span id="title"> ↪ Education</span>
 
         <br>
         <img id="edu-image" src="./img/CV_Examples_2x.png" alt=""  >
@@ -160,28 +162,29 @@
         <div class="edu" id="ex3"><span id="child-edu"><i class="fas fa-graduation-cap"> </i>  B-TECH &nbsp;:  Government Engineering Collage, Gandhinagar </span> </div>
     
     </section>
-    <section id="contactMe"> <span id="title" !important>Contact Me</span>
+    <section id="contactMe"> <span id="title" >↪ Contact Me</span>
       <br>
       <br>
       <br>
       <br>
         <!-- <div class="contactdetails"> -->
      <div class="contactdetails">
+        <form action="" method="post">
         <img class="email-image" src="./img/how-to-header.png" alt="this is image">
-            <input type="text" name="name" id="visitorname" placeholder="Write Your Name Here">
+            <input type="text" name="name" id="visitorname" placeholder="Write Your Name Here" required>
             <span id="yourname"><i class="fa fa-user-circle" aria-hidden="true"></i> Navin Rawat</span>
     </div>
     <br>
     <br>
     <div class="contactMedetails">
-            <input type="email" name="name" id="email" placeholder="Write Your Email Here"  >
-            <span id="youremail"><a id="yourmail" href="https://mailto:navinrawat11032004@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a> navinrawat11032004@gmail.com</span>
+            <input type="email" name="name" id="email" placeholder="Write Your Email Here" required >
+            <span id="youremail"><a id="yourmail" href="https://mailto:navinrawat11032004@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true" ></i></a> navinrawat11032004@gmail.com</span>
              
     </div>
     <br>
     <br>
     <div class="contactMedetails">
-            <input type="tel" name="name" id="email" placeholder="Write Your Number Here">
+            <input type="tel" name="name" id="email" placeholder="Write Your Number Here" >
             <span id="yournumber"><a id="yourmail" href="tel: 9328010281" target="_blank"><i class="fa fa-phone-square" aria-hidden="true"></i></a> +919328010281</span>
             
     </div>
@@ -189,22 +192,26 @@
     
     <br>
     <br class="contactMedetails"> 
-            <textarea name="Message" id="Message" cols="30" rows="10" placeholder="Write Your Message Here"></textarea>
+            <textarea name="Message" id="Message" cols="30" rows="10" placeholder="Write Your Message Here" required></textarea>
             
     </div>
+
+    <button class="sbt-btn" type="submit" >Send</button>
+</form>
     <!-- <span><i class="fa fa-instagram" aria-hidden="true"></i>dsfsf</span> -->
     <a href="http://github.com/mainavinhoon" target="_blank"><img class="github-img" src="./img/github-sign.png" alt=""></a>
     <a href="http://www.linkedin.com/in/navin-rawat/" target="_blank"><img class="linkdin-img" src="./img/linkedin (1).png" alt=""></a>
     <a href="https://www.instagram.com/mainavinhoon/" target="_blank"><img class="linkdin-img" src="./img/instagram.png" alt=""></a>
     <a href="https://discord.com/channels/913060781694787634" target="_blank"><img class="linkdin-img" src="./img/discord.png" alt=""></a>
     </p>
-    <span id="yourmessage">Thanks For Visiting - Made By Navin Rawat ✌</span>
+    <span id="yourmessage">Created By ~ Navin Rawat ✌</span>
     
     </section>
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer">
     </script>
+
     <script >      
         var typed = new Typed(".typing",{
             strings:["Web Developer","Freelancer","Editor","Canva Designer","Logo Designer","Coder"],

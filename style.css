@@ -165,6 +165,7 @@
     user-select: none;
     -webkit-user-select: none;
     -webkit-user-drag: none;
+    pointer-events: none;
 }
 /* #nav-btn{
     size: 100%;
@@ -222,10 +223,11 @@ section{
     width: 40%;
     position: absolute;
     right: 0vw;
-    bottom: -30vh;
+    bottom: -10em;
     user-select: none;
     -webkit-user-select: none;
     -webkit-user-drag: none;
+    pointer-events: none;
  }
 #experience{
 
@@ -303,6 +305,7 @@ section{
     user-select: none;
     -webkit-user-select: none;
     -webkit-user-drag: none;
+    pointer-events: none;
 }
  
 #skills{
@@ -321,6 +324,7 @@ section{
     align-items: center;
     overflow: hidden;
     flex-shrink: 0;
+    height: fit-content;
  }
 
 
@@ -346,6 +350,7 @@ animation: scrolling 10s linear infinite;
     user-select: none;
     -webkit-user-select: none;
     -webkit-user-drag: none;
+    pointer-events: none;
  }
  .css-img,.js-img{
     background-color: black;
@@ -355,6 +360,7 @@ animation: scrolling 10s linear infinite;
     -webkit-user-select: none;
     -webkit-user-drag: none;
     font-size: 2px !important;
+    pointer-events: none;
  }
  .train-img-1{
     width: 16vw;
@@ -366,6 +372,7 @@ animation: scrolling 10s linear infinite;
     user-select: none;
     -webkit-user-select: none;
     -webkit-user-drag: none;
+    pointer-events: none;
  }
  .train-img-2{
     width: 16vw;
@@ -375,6 +382,7 @@ animation: scrolling 10s linear infinite;
     user-select: none;
     -webkit-user-select: none;
     -webkit-user-drag: none;
+    pointer-events: none;
  }
  /* @keyframes scrolling{
     0%{
@@ -431,12 +439,14 @@ animation: scrolling 10s linear infinite;
     padding-bottom: 15px;
     width: 15vw;
     height: 45vh;
+    pointer-events: none;
 }
 .play-photo{
    
     border-radius: 150px;
     width: 15%;
     background-color: rgb(255, 255, 255);
+ 
 }
 .play-photo:hover{
     background-color: blue;
@@ -498,6 +508,7 @@ animation: scrolling 10s linear infinite;
     user-select: none;
     -webkit-user-select: none;
     -webkit-user-drag: none;
+    pointer-events: none;
  }
  #visitorname, #email,#contactNo{
     
@@ -532,7 +543,7 @@ animation: scrolling 10s linear infinite;
  .github-img{
 width: 3vw;
 background-color: rgb(207, 207, 212);
-margin-left: 20vw;
+margin-left: 3em;
 margin-bottom: 80px;
 border-radius: 200px;
 user-select: none;
@@ -554,6 +565,22 @@ user-select: none;
     background-color: blue;
  }
 
+ .sbt-btn{
+    width: 60px;
+    height: 30px;
+    background-color: black;
+    color: blue;
+    border-color: bisque;
+    margin: 10px 10px 15px 30px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+ }
+ .sbt-btn:hover{
+    color: bisque;
+    border-color: blue;
+    transform: scale(1.1);
+ }
 /* -------------------------------------------------------------------------------------------------------------------- */
 
  @media  screen and (max-width : 560px)  {
@@ -618,7 +645,8 @@ user-select: none;
     }
 
      .content{
-        padding-left: 0px !important;
+        padding-left: 10px !important;
+        padding-right: 0%;
         width: 100% !important;
         font-size: 1em!important;
         color: aliceblue;
@@ -784,35 +812,39 @@ user-select: none;
      
      }
     #project{
-        width: 60vw !important;
-        height: 30vh !important;
+        width: 60vw ;
+        height: 30vh ;
+        min-height: 10em;
         border-color: blue;
         border: solid;
         border-radius: 20px;
         align-items: center;
         /* justify-content: center; */
         /* align-content: space-between; */
-        margin: 10px 5vw 2vh 5vw !important;
-        padding-top: 20px !important;
+        margin: 10px 5vw 2vh 5vw ;
+        padding-top: 20px ;
         text-align: center;
     }
     .women-project{
         padding-top: 10px;
-        padding-bottom: 15px;
-        width: 50vw !important;
-        height: 18vh !important;
+        margin-bottom: -15px;
+        width: 50vw ;
+        height: 18vh ;
+    
     }
     .shopit-img{
         padding-top: 10px;
-        padding-bottom: 15px;
-        width: 50vw !important;
-        height: 18vh !important;
+        padding-bottom: 0px;
+        width: 50vw ;
+        height: 18vh ;
     }
     .play-photo{
        
         border-radius: 150px;
-        width: 7vw !important;
+        width: 2em;
         background-color: rgb(255, 255, 255);
+        position: inherit;
+     
     }
     .play-photo:hover{
         background-color: blue;
@@ -876,7 +908,8 @@ user-select: none;
     }
      #edu-image{
       
-        width: 0% !important;
+        width: 10em ;
+        margin: -5px -18em 10em 0em;
         user-select: none;
         -webkit-user-select: none;
         -webkit-user-drag: none;
@@ -911,8 +944,8 @@ user-select: none;
         
      }
      #yourmessage{
-        padding-left: 15vw;
-        font-size: 10px !important;
+        margin-left: -5em;
+        font-size: 13px !important;
         font-family: cursive;
      }
      #visitorname, #email,#contactNo{
@@ -966,7 +999,7 @@ user-select: none;
      .email-image{
         width: 30% !important;
         position: absolute;
-        margin-top: 70vh !important;
+        margin-top: 36rem !important;
   
         right: 0vw;
         /* bottom: 0px; */
@@ -974,5 +1007,7 @@ user-select: none;
         -webkit-user-select: none;
         -webkit-user-drag: none;
      }
+
+
  } 
  /*  ---------------------------Media Query For max-560px Ends Here------------------------------------------------ */
