@@ -1,10 +1,8 @@
 .body{
-    margin-top: 0%;
-    
+
+    margin: 0%;
     background-color: rgb(0, 0, 0);
-    margin-left: 0%;
-    margin-right: 0%;
-    margin-bottom: 0%;
+  
     /* overflow-wrap: break-word; */
     
 }
@@ -134,7 +132,7 @@
     font-style: italic;
   
     color:  rgb(227, 227, 235);
-    font-family: cursive;
+ 
     font-size: 100%;
     font-weight: 900;
 }
@@ -152,7 +150,7 @@
     color:blue;
 }
 
-#mypic{
+.mypic{
     float: right;
     position: relative;
     width: 18%;
@@ -242,10 +240,54 @@ section{
     display: flex;
     flex-direction: column;
     align-items: center;
+
  }
+ .exp1{
+  
+    flex-wrap: nowrap;
+    flex-direction: row;
+ }
+
+ .intshp-1{
+    font-size: 1em;
+    width: 70%;
+    height: 40%;
+    float: left;
+    position: relative;
+    margin: -15px 0px 0px 2em;
+
+ }
+ .cmp-name1{
+    font-size: 80%;
+    color: rgb(151, 158, 165);
+ }
+ .intsp-crt-1{
+ 
+    position: relative;
+    float:left;
+    border: solid 5px ;
+    width: 6em;
+    height: 3em;
+    margin: -4.5em -10em 20px 35vw;
+    overflow: hidden;
+
+ }
+ .int-skills-name{
+    font-size: 80%;
+    color: rgb(110, 105, 119);
+ }
+ .techs-used{
+    font-size: 100%;
+    width: 100%;
+    position: absolute;
+    margin: -5em 56vw;
+ }
+.crt-1{
+    width: 7em;
+}
 .exp , .edu{
     transition: ease-in;
-    width: 50%;
+    width: 60%;
     height: 15vh;
     background-color: rgb(0, 0, 0);
     transition: ease-in;
@@ -265,22 +307,27 @@ section{
     position: relative;
    width: 65%;
    color: rgb(255, 255, 255);
+  
    background-color: rgb(7, 14, 53);
    border-radius: 100px;
    overflow: hidden;
-   color: rgb(255, 255, 255);
+   
+}
+.exp:hover{
+    width: 88%;
 }
 #child-edu{
     /* position: relative; */
-    position: relative;
-    margin-top: 10em;
+    position: absolute;
+    
     font-size: 120%;
     text-align: center;
     overflow: hidden;
-    padding : 20px 0px 20px 30px;
+   
     z-index: 1;
 
 }
+
 .fa-book,.fa-graduation-cap{
     color: blue;
     /* padding: 3px 3px 3px 3px ;
@@ -309,7 +356,7 @@ section{
 }
  
 #skills{
-    margin: 0px  20px 00 20px ;
+    margin: 0px  0px 00 0px ;
     padding: 2vh 0px 2vh 0px;
     display: flex;
     flex-wrap: wrap;
@@ -491,7 +538,7 @@ animation: scrolling 10s linear infinite;
  #yourname,#youremail,#yournumber{
     padding-left: 10vw;
     font-size: 2vw;
-    font-family: cursive;
+    font-family: 'Times New Roman', Times, serif;
     color: aliceblue;
  }
  #yourmessage{
@@ -516,7 +563,7 @@ animation: scrolling 10s linear infinite;
     width: 30vw;
     height: 30px;
     background-color: black;
-    border-color: blue;
+    border-color:  rgb(8, 25, 121);
     border-radius: 10px;
     color: rgb(219, 13, 13);
     text-align: left;
@@ -578,7 +625,7 @@ user-select: none;
  }
  .sbt-btn:hover{
     color: bisque;
-    border-color: blue;
+    border-color: rgb(1, 28, 180);
     transform: scale(1.1);
  }
 /* -------------------------------------------------------------------------------------------------------------------- */
@@ -588,32 +635,35 @@ user-select: none;
     #home{
         height: fit-content;
         color:rgb(32, 32, 156);
-        font-family: cursive;
+  
         /* font-size: 100%; */
         background-color:rgb(0, 0, 0);
 
 
      }
-    #mypic{
-        float:right !important;
-        
-        position: relative;
-        width: 10em !important;
+   .meriphotu{
+    display: grid;
+    place-items: centre;
+    
+  
+   }
+    .mypic{
+
+       
+        margin: 10% auto ;
+        margin-bottom: 0%;
+        width: 13em ;
         border-color: rgb(32, 32, 156);
         border-width: 5px;
         border-style: solid;
-        top: 50% !important;
-        align-self: center;
-     
-        margin-right: 30% !important;
-        margin-left: 31% !important;
-        
         border-radius: 100%;
-        margin-top: 10vh !important;
+
+
        
     
     }
     .navbar{
+        top: 60;
         display: flex;
         justify-content: center !important;
         font-style: italic;
@@ -626,14 +676,14 @@ user-select: none;
     }
     
     .name{
-        margin-right: 15% !important;
-        margin-left: 25% !important;
-        left: 50% !important;
-        top: 10% !important;
-        justify-content: center !important;
+        margin-right: 15% ;
+        margin-left: 25% ;
+        left: 50% ;
+        top: 60% !important;
+        justify-content: center ;
         color: blue;
-        text-align: center !important;
-        font-size: 8vw !important;
+        text-align: center;
+        font-size: 8vw ;
     }
     .hello{
         padding-left: 30%;
@@ -687,8 +737,8 @@ user-select: none;
 
     .exp , .edu{
         transition: ease-in;
-        width: 50%;
-        height: 10vh !important;
+        width: 60%;
+        height: 15vh !important;
         background-color: rgb(0, 0, 0);
         transition: ease-in;
         border: solid;
@@ -712,7 +762,44 @@ user-select: none;
        overflow: hidden;
        color: rgb(255, 255, 255);
     }
- 
+    
+ .intshp-1{
+    font-size: 0.7em;
+    width: 80%;
+    height: 40%;
+    float: left;
+    position: relative;
+    margin: 5px 0px 0px 1em;
+
+ }
+    .cmp-name1{
+        font-size: 75%;
+        color: rgb(151, 158, 165);
+     }
+     .intsp-crt-1{
+     
+        position: relative;
+        float:left;
+        border: solid 5px ;
+        width: 4em;
+        height: 2em;
+        margin: -3.3em -10em 20px 28vw;
+        overflow: hidden;
+    
+     }
+     .int-skills-name{
+        font-size: 70%;
+        color: rgb(110, 105, 119);
+     }
+     .techs-used{
+        font-size: 100%;
+        width: 100%;
+        position: absolute;
+        margin: -5em 50vw;
+     }
+    .crt-1{
+        width: 7em;
+    }
     #skills{
         margin: 0px  10px 00 10px !important;
         padding: 2vh 0px 2vh 0px !important;
@@ -729,7 +816,10 @@ user-select: none;
         align-items: center;
         overflow: hidden;
         flex-shrink: -3;
-      
+     }
+
+     .marqee{
+        scroll-behavior: smooth;
      }
 
      .train-img-1{
@@ -907,9 +997,10 @@ user-select: none;
     
     }
      #edu-image{
-      
-        width: 10em ;
-        margin: -5px -18em 10em 0em;
+        visibility: hidden;
+        width: 0rem ;
+        left: 60%;
+        margin: 0px ;
         user-select: none;
         -webkit-user-select: none;
         -webkit-user-drag: none;
@@ -939,7 +1030,7 @@ user-select: none;
      
         padding: 20px 0px 20px 0px ;
         font-size: 20px;
-        font-family: cursive;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         color: aliceblue;
         
      }
@@ -954,7 +1045,7 @@ user-select: none;
         width: 80vw !important;
         height: 30px;
         background-color: black;
-        border-color: blue;
+        border-color:  rgb(7, 14, 53);
         border-radius: 10px;
         color: rgb(219, 13, 13);
         text-align: left;
@@ -969,7 +1060,7 @@ user-select: none;
         width: 80vw !important;
         margin-top: 20px ;
         background-color: black;
-        border-color:  blue;
+        border-color:   rgb(7, 14, 53);
         border-radius: 10px;
         color: rgb(219, 13, 13);
         border-width: 3px;
@@ -1021,7 +1112,7 @@ user-select: none;
      }
      .sbt-btn:hover{
         color: bisque;
-        border-color: blue;
+        border-color:  rgb(7, 14, 53);
         transform: scale(1.1);
      }
  } 
