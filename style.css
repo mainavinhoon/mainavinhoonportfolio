@@ -563,9 +563,9 @@ animation: scrolling 10s linear infinite;
     width: 30vw;
     height: 30px;
     background-color: black;
-    border-color:  rgb(8, 25, 121);
+    border-color:  rgb(15, 33, 134);
     border-radius: 10px;
-    color: rgb(219, 13, 13);
+    color: blue;
     text-align: left;
     padding-left: 20px;
     font-family: cursive;
@@ -578,28 +578,36 @@ animation: scrolling 10s linear infinite;
    
  }
 #Message{
-    size: 10%;
+    size: 100%;
     width: 30vw;
+    min-width: 30vw;
+    max-width: 30vw;
+    min-height: 20vh;
+    max-height: 20vh;
     padding-left: 20px;
     background-color: black;
     border-color:  blue;
     border-radius: 10px;
-    color: rgb(219, 13, 13);
+    color: blue;
     border-width: 3px;
+    border-right-color:  rgb(7, 15, 63);
+    border-bottom-color:  rgb(7, 15, 63);
  }
  .github-img{
-width: 3vw;
+width: 45px;
 background-color: rgb(207, 207, 212);
-margin-left: 3em;
+margin-left: 2vw;
 margin-bottom: 80px;
 border-radius: 200px;
 user-select: none;
 -webkit-user-select: none;
 -webkit-user-drag: none;
+
  }
  .linkdin-img{
-    width: 3vw;
+    width: 45px;
     background-color: rgb(207, 207, 212);
+    
     margin-left: 2vw;
     margin-bottom: 80px;
     border-radius: 200px;
@@ -1046,27 +1054,20 @@ user-select: none;
     
         size: 0em !important;
         width: 80vw !important;
+        font-size: 15px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         height: 30px;
-        background-color: black;
-        border-color:  rgb(7, 14, 53);
-        border-radius: 10px;
-        color: rgb(219, 13, 13);
-        text-align: left;
+     
         margin-bottom: 20px;
-        margin-left: 0px !important;
-        font-family: cursive;
-        border-width: 3px;
+       
         
      }
      #Message{
         size: 10% !important;
         width: 80vw !important;
         margin-top: 20px ;
-        background-color: black;
-        border-color:   rgb(7, 14, 53);
-        border-radius: 10px;
-        color: rgb(219, 13, 13);
-        border-width: 3px;
+        max-width: 40em;
+    
      }
      .github-img{
     width: 8vw !important;
