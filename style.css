@@ -691,10 +691,12 @@ user-select: none;
         margin-left: 10vw ;
        
         top: 60% !important; */
+       
         justify-content: center ;
         color: blue;
         text-align: center;
         font-size: 2.5em ;
+        font-weight: 900;
     }
     .hello{
   
@@ -703,6 +705,7 @@ user-select: none;
     .typing{
         color:rgb(41, 41, 199) !important;
         font-size: 2em !important;
+        font-weight: 900;
     }
 
      .content{
@@ -711,6 +714,7 @@ user-select: none;
         width: 100% !important;
         font-size: 1.2em!important;
         color: aliceblue;
+        font-weight: 500;
     }
     #home-img{
         width: 80% !important;
