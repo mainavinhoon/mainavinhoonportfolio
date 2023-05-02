@@ -755,7 +755,7 @@ user-select: none;
         transition:  1s;
         /* transform: scale(1.); */
         position: relative;
-       width: 100% !important;
+       width: 102% !important;
        color: rgb(255, 255, 255);
        background-color: rgb(7, 14, 53);
        border-radius: 100px;
@@ -765,7 +765,7 @@ user-select: none;
     
  .intshp-1{
     font-size: 0.7em;
-    width: 80%;
+    width: 90%;
     height: 40%;
     float: left;
     position: relative;
