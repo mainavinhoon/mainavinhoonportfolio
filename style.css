@@ -578,7 +578,7 @@ animation: scrolling 10s linear infinite;
    
  }
 #Message{
-    size: 110%;
+    size: 100%;
     width: 30vw;
     padding-left: 20px;
     background-color: black;
@@ -738,7 +738,7 @@ user-select: none;
     .exp , .edu{
         transition: ease-in;
         width: 60%;
-        height: 15vh !important;
+        height: 4.5em;
         background-color: rgb(0, 0, 0);
         transition: ease-in;
         border: solid;
