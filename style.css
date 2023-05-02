@@ -578,7 +578,7 @@ animation: scrolling 10s linear infinite;
    
  }
 #Message{
-    size: 100%;
+    size: 10%;
     width: 30vw;
     padding-left: 20px;
     background-color: black;
@@ -737,8 +737,8 @@ user-select: none;
 
     .exp , .edu{
         transition: ease-in;
-        width: 60%;
-        height: 4.5em;
+        width: 95%;
+        height: 5em;
         background-color: rgb(0, 0, 0);
         transition: ease-in;
         border: solid;
@@ -755,16 +755,19 @@ user-select: none;
         transition:  1s;
         /* transform: scale(1.); */
         position: relative;
-       width: 102% !important;
+       width: 100%;
        color: rgb(255, 255, 255);
        background-color: rgb(7, 14, 53);
        border-radius: 100px;
        overflow: hidden;
        color: rgb(255, 255, 255);
     }
-    
+    .exp:hover{
+        height: 9em;
+        border-radius: 1em;
+    }
  .intshp-1{
-    font-size: 0.7em;
+    font-size: 0.8em;
     width: 90%;
     height: 40%;
     float: left;
@@ -783,7 +786,7 @@ user-select: none;
         border: solid 5px ;
         width: 4em;
         height: 2em;
-        margin: -3.3em -10em 20px 28vw;
+        margin: -3.5em 0em 20px 50vw;
         overflow: hidden;
     
      }
@@ -795,7 +798,7 @@ user-select: none;
         font-size: 100%;
         width: 100%;
         position: absolute;
-        margin: -5em 50vw;
+        margin: 0em 0vw;
      }
     .crt-1{
         width: 7em;
@@ -959,8 +962,8 @@ user-select: none;
      }
      .edu{
         transition: ease-in;
-        width: 60% !important;
-        height: 18vh !important;
+        width: 90% !important;
+        height: 4.5em !important;
         background-color: rgb(0, 0, 0);
         transition: ease-in;
         border: solid;
