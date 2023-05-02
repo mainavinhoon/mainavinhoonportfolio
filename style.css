@@ -139,11 +139,13 @@
 
 .name{
     padding-top: 20px;
+  
     color: blue;
     font-size: 7vw;
 }
 .hello{
     padding-top: 0px;
+   
     font-size: 2vw;
 }
 .typing{
@@ -565,7 +567,7 @@ animation: scrolling 10s linear infinite;
     background-color: black;
     border-color:  rgb(15, 33, 134);
     border-radius: 10px;
-    color: blue;
+    color: rgb(176, 176, 184);
     text-align: left;
     padding-left: 20px;
     font-family: cursive;
@@ -588,7 +590,7 @@ animation: scrolling 10s linear infinite;
     background-color: black;
     border-color:  blue;
     border-radius: 10px;
-    color: blue;
+    color: rgb(176, 176, 184);
     border-width: 3px;
     border-right-color:  rgb(7, 15, 63);
     border-bottom-color:  rgb(7, 15, 63);
@@ -596,7 +598,7 @@ animation: scrolling 10s linear infinite;
  .github-img{
 width: 45px;
 background-color: rgb(207, 207, 212);
-margin-left: 2vw;
+margin-left: 1.5vw;
 margin-bottom: 80px;
 border-radius: 200px;
 user-select: none;
@@ -684,29 +686,30 @@ user-select: none;
     }
     
     .name{
-        margin-right: 15% ;
-        margin-left: 25% ;
-        left: 50% ;
-        top: 60% !important;
+        /* left: 0% ;
+      
+        margin-left: 10vw ;
+       
+        top: 60% !important; */
         justify-content: center ;
         color: blue;
         text-align: center;
-        font-size: 8vw ;
+        font-size: 2.5em ;
     }
     .hello{
-        padding-left: 30%;
+  
         font-size: 0.8em !important;
     }
     .typing{
-        color:rgb(65, 65, 170) !important;
-        font-size: 1.5em !important;
+        color:rgb(41, 41, 199) !important;
+        font-size: 2em !important;
     }
 
      .content{
         padding-left: 10px !important;
         padding-right: 0%;
         width: 100% !important;
-        font-size: 1em!important;
+        font-size: 1.2em!important;
         color: aliceblue;
     }
     #home-img{
@@ -806,7 +809,7 @@ user-select: none;
         font-size: 100%;
         width: 100%;
         position: absolute;
-        margin: 0em 0vw;
+        margin: 0.5em 0vw;
      }
     .crt-1{
         width: 7em;
