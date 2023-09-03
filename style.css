@@ -6,7 +6,9 @@
     /* overflow-wrap: break-word; */
     
 }
-
+html{
+    scroll-behavior: smooth;
+}
 
 /* #sidebar  { */
     /* position: fixed;  */
@@ -963,9 +965,12 @@ user-select: none;
     }
     .service-box{
         width: 8rem;
-        height: 10rem;
+        min-height: 10rem;
+        height: fit-content;
     }
-
+    .service-box.image{
+        min-width: 500px;
+    }
      #edu-image{
         visibility: hidden;
         width: 0rem ;
