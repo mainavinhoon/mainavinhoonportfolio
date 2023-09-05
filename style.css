@@ -9,7 +9,7 @@
 html{
     scroll-behavior: smooth;
 }
-
+z
 /* #sidebar  { */
     /* position: fixed;  */
     /* position: fixed;
@@ -378,7 +378,7 @@ animation: scrolling 10s linear infinite;
     -webkit-user-drag: none;
     pointer-events: none;
  }
- .css-img,.js-img{
+ .css-img,.js-img,.service-img{
     background-color: black;
     padding-top: 15px;
     width: 7vw;
@@ -838,6 +838,8 @@ user-select: none;
 
      .marqee{
         scroll-behavior: smooth;
+        width: 150vw;
+        height: max-content;
      }
 
      .train-img-1{
@@ -964,13 +966,21 @@ user-select: none;
         justify-content: space-evenly;
     }
     .service-box{
-        width: 8rem;
-        min-height: 10rem;
+        width: 10em;
+        min-height: 10em;
         height: fit-content;
+        font-size: smaller;
     }
-    .service-box.image{
-        min-width: 500px;
-    }
+    .service-img{
+        background-color: black;
+        padding-top: 15px;
+        width: 35em;
+        user-select: none;
+        -webkit-user-select: none;
+        -webkit-user-drag: none;
+        font-size: 2px !important;
+        pointer-events: none;
+     }
      #edu-image{
         visibility: hidden;
         width: 0rem ;
