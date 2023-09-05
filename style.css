@@ -966,7 +966,7 @@ user-select: none;
         justify-content: space-evenly;
     }
     .service-box{
-        width: 10em;
+        width: 30vw;
         min-height: 10em;
         height: fit-content;
         font-size: smaller;
