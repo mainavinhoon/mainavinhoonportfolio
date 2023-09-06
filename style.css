@@ -693,10 +693,11 @@ user-select: none;
         top: 60% !important; */
        
         justify-content: center ;
-        color: blue;
+        color: rgb(60, 60, 248);
         text-align: center;
-        font-size: 2.5em ;
-        font-weight: 900;
+        font-size: 2.3em ;
+        font-weight: bolder;
+        font-family: Georgia, 'Times New Roman', Times, serif;
     }
     .hello{
   
