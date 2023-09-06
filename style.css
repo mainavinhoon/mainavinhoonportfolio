@@ -844,7 +844,7 @@ user-select: none;
 
      .train-img-1{
         width: 20vw;
-        height: 19vw;
+        height: 21vw;
         background-color: rgb(0, 0, 0);
         color: blue;
         -webkit-transform: scaleX(-1);
@@ -855,7 +855,7 @@ user-select: none;
      }
      .train-img-2{
         width: 20vw;
-        height: 19vw !important;
+        height: 21vw !important;
         background-color: rgb(0, 0, 0);
         color: blue;
         user-select: none;
@@ -863,28 +863,27 @@ user-select: none;
         -webkit-user-drag: none;
      }
     #skill-details{
-        align-content: space-around;
+        align-content: space-evenly;
         justify-content: center;
         /* margin: 0px 20px 0px 20px; */
         width: 10vw !important;
-        height: 10vw !important;
+        height: 11vw !important;
         border-style: solid;
         border-radius: 5px !important;
         text-align: center;
         flex-shrink: 0;
-        animation: scrolling 10s linear infinite;
         overflow: hidden;
      
          }
         #skill-name{
-            font-size: 3em !important;
+            font-size: 0.5rem ;
         }
 
         /* .marqee{
 
             height: 30vh !important;
         } */
-    .html-img{
+    /* .html-img{
         background-color: black;
         padding-top: 5px !important;
         padding-left: 3px !important;
@@ -893,10 +892,10 @@ user-select: none;
         user-select: none;
         -webkit-user-select: none;
         -webkit-user-drag: none;
-     }
+     } */
      .css-img,.js-img{
         background-color: black;
-        padding-top: 5px !important;
+        padding-top: 8px !important;
         width: 7vw;
         font-size: 1emz !important;
         user-select: none;
