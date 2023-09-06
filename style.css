@@ -707,6 +707,7 @@ user-select: none;
         color:rgb(41, 41, 199) !important;
         font-size: 2em !important;
         font-weight: 900;
+        font-family:Georgia, 'Times New Roman', Times, serif;
     }
 
      .content{
