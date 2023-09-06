@@ -292,7 +292,7 @@ section{
 .exp{
     transition: ease-in;
     width: 60%;
-    height: 15vh;
+    height: 5.3em;
     background-color: rgb(0, 0, 0);
     transition: ease-in;
     border: solid;
@@ -429,7 +429,7 @@ animation: scrolling 10s linear infinite;
     color: rgb(255, 255, 255);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /* font-size: 300%; */
-   
+   padding-top: 25px;
     background-color:rgb(0, 0, 0);
     font: bolder;
     font-style: italic;
@@ -437,50 +437,68 @@ animation: scrolling 10s linear infinite;
     transition: ease-in 800ms;
     display: flex;
     flex-wrap: wrap;
-  
     align-items: center;
-    align-content: space-around;
+    justify-content: center;
+    align-content: space-evenly;
+    height: fit-content;
+    min-height: 80vh;
  
  }
 
 #project{
-    width: 20%;
-    height: 60%;
+
+    height: 22em;
+    width: 15em;
     border-color: blue;
     border: solid;
     border-radius: 20px;
     align-items: center;
-    /* justify-content: center; */
-    /* align-content: space-between; */
-    margin: 0px 5vw 2vh 5vw;
-    padding-top: 10px;
+
+    margin: 20px 5vw 2vh 5vw;
+    padding-top: 10px 10px 10px 10px;
     text-align: center;
+    overflow: hidden;
 }
-.women-project{
-    width: 15vw;
-    height: 45vh;
-}
-.shopit-img{
-    padding-top: 10px;
-    padding-bottom: 15px;
-    width: 15vw;
-    height: 45vh;
-    pointer-events: none;
-}
-.play-photo{
-   
-    border-radius: 150px;
-    width: 15%;
-    background-color: rgb(255, 255, 255);
- 
-}
-.play-photo:hover{
-    background-color: blue;
-}
+
 #project:hover{
-    transform: scale(1.1);
+    height: 22em;
+    width: 19em;
+    transform: scale(1.05);
     border-color: blue;
-    transition: 300ms;
+    overflow: visible;
+
+    transition: 800ms;
+    animation: border-change infinite 500ms;
+ }
+ @keyframes border-change {
+
+    0%{
+        border-top-color: rgb(0, 0, 0);
+        border-width: 0%;
+        
+
+
+    }
+    25%{
+        border-right-color: rgb(0, 0, 0);
+         border-width: 100%;
+          
+    }
+    50%{
+        border-bottom-color: black;
+           border-width: 0%;
+        
+    }
+    75%{
+        border-left-color: rgb(0, 0, 0);
+          border-width: 100%;
+
+    }
+    100%{
+        border-left-color: rgb(0, 0, 0);
+          border-width: 100%;
+         
+    }
  }
 #service{
     margin: 0px  0px 00 0px ;
