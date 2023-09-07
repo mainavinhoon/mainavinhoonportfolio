@@ -7,6 +7,7 @@
     <title>Navin's Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+ 
     
  
 </head>
@@ -159,9 +160,20 @@
         <!-- <span id="title">Education</span> -->
        <br>
        
-        <div id="project" >Wo-Wel-Schemes </div>
+        <div id="project" >Wo-Wel-Schemes 
+
+            <div class="project-description">
+          
+
+                Developed a Women Welfare Schemes Website within a 36-hour hackathon, providing a consolidated platform for accessing comprehensive information on various welfare schemes dedicated to women in Gujarat.
+                online resource for all women-centric schemes, offering a valuable resource to the community.
+            </div></div>
         <div id="project" >Letsshopit</div>
-        <div id="project" >E-Commerce Website  </div>
+        <div id="project" >E-Commerce Website 
+            <div class="project-description">
+                Developed and designed with a comprehensive array of features that enhance the shopping experience for users : Responsive Design , User-friendly Navigation, Product Catalog, Dynamic Product Pages
+            </div>
+             </div>
    
     </section>
     <div id="title"> ↪ Services</div>
@@ -190,22 +202,22 @@
       <br>
         <!-- <div class="contactdetails"> -->
      <div class="contactdetails">
-        <form action="" method="post">
+        <form  id="form">
         <img class="email-image" src="./img/how-to-header.png" alt="this is image">
-            <input type="text" name="name" id="visitorname" placeholder="Write Your Name Here" required>
+            <input name="from_name" type="text"  id="from_name" placeholder="Write Your Name Here" required>
             <span id="yourname"><i class="fa fa-user-circle" aria-hidden="true"></i> Navin Rawat</span>
     </div>
     <br>
     <br>
     <div class="contactMedetails">
-            <input type="email" name="name" id="email" placeholder="Write Your Email Here" required >
+            <input name="email_id" type="email"  id="email_id" placeholder="Write Your Email Here" required >
             <span id="youremail"><a id="yourmail" href="https://mailto:navinrawat11032004@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true" ></i></a> navinrawat11032004@gmail.com</span>
              
     </div>
     <br>
     <br>
     <div class="contactMedetails">
-            <input type="tel" name="name" id="email" placeholder="Write Your Number Here (Optional)" >
+            <input name="tel" type="tel"  id="tel" placeholder="Write Your Number Here (Optional)" >
             <span id="yournumber"><a id="yourmail" href="tel: 9328010281" target="_blank"><i class="fa fa-phone-square" aria-hidden="true"></i></a> +91 9328010281</span>
             
     </div>
@@ -213,11 +225,11 @@
     
     <br>
     <br class="contactMedetails"> 
-            <textarea name="Message" id="Message" cols="30" rows="10" placeholder="Write Your Message Here" required></textarea>
+            <textarea name="message" type="text" id="message" cols="30" rows="10" placeholder="Write Your Message Here" required></textarea>
             
     </div>
 
-    <button class="sbt-btn" type="submit" >Send</button>
+    <button id="sbt-btn"  type="submit" value="Send Email">Send</button>
 </form>
     <!-- <span><i class="fa fa-instagram" aria-hidden="true"></i>dsfsf</span> -->
     <a href="http://github.com/mainavinhoon" target="_blank"><img class="github-img" src="./img/github-sign.png" alt=""></a>
@@ -241,5 +253,41 @@
             loop:true
         })
         </script>
+
+        <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+        </script>
+
+        <script type="text/javascript">
+            emailjs.init('TrbPaTr4yMD38MCPz')
+        </script>
+
+    <script>
+
+const btn = document.getElementById('sbt-btn');
+
+    document.getElementById('form')
+ .addEventListener('submit', function(event) {
+   event.preventDefault();
+
+   btn.value = 'Sending...';
+   
+   const serviceID = 'service_x1k47zo';
+   const templateID = 'template_zzobtfm';
+
+   emailjs.sendForm(serviceID, templateID,this)
+    .then(() => {
+      btn.value = 'Send Email';
+      alert('Your Message Sent Successfully ! 💖');
+    }, (err) => {
+      btn.value = 'Send Email';
+      alert('error!');
+    });
+});
+         
+        
+
+
+    </script>
 </body>
 </html>

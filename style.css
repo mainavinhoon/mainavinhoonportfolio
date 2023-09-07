@@ -500,6 +500,15 @@ animation: scrolling 10s linear infinite;
          
     }
  }
+.project-description{
+    font-size: small;
+   
+}
+
+.women-project{
+    margin: 0px 20px 0px 20px;
+   
+}
 #service{
     margin: 0px  0px 00 0px ;
     padding: 2vh 0px 2vh 30em;
@@ -577,7 +586,7 @@ transition: border-color 500ms;
     -webkit-user-drag: none;
     pointer-events: none;
  }
- #visitorname, #email,#contactNo{
+ #from_name, #email_id,#tel,#contactNo{
     
     size: 120%;
     width: 30vw;
@@ -593,11 +602,11 @@ transition: border-color 500ms;
  }
 
 
- #visitorname:hover, #email:hover,#contactNo:hover,#Message:hover{
+ #from_name:hover, #email_id:hover,#tel:hover,#message:hover{
     border-color: white;
    
  }
-#Message{
+#message{
     size: 100%;
     width: 30vw;
     min-width: 30vw;
@@ -640,7 +649,7 @@ user-select: none;
     background-color: blue;
  }
 
- .sbt-btn{
+ #sbt-btn{
     width: 60px;
     height: 30px;
     background-color: black;
@@ -651,7 +660,7 @@ user-select: none;
     font-weight: bold;
     cursor: pointer;
  }
- .sbt-btn:hover{
+ #sbt-btn:hover{
     color: bisque;
     border-color: rgb(1, 28, 180);
     transform: scale(1.1);
@@ -1047,7 +1056,7 @@ user-select: none;
         font-size: 13px !important;
         font-family: cursive;
      }
-     #visitorname, #email,#contactNo{
+     #from_name, #email_id,#tel{
     
         size: 0em !important;
         width: 80vw !important;
@@ -1059,7 +1068,7 @@ user-select: none;
        
         
      }
-     #Message{
+     #message{
         size: 10% !important;
         width: 80vw !important;
         margin-top: 20px ;
