@@ -214,7 +214,7 @@ section{
     font-family: cursive;
     /* font-size: 100%; */
     background-color:rgb(0, 0, 0);
- }
+}
 .content{
     padding-top: 50px;
     width: 70%;
@@ -940,8 +940,8 @@ user-select: none;
      
      }
     #project{
-        width: 60vw ;
-        height: 30vh ;
+        width: 22em ;
+        height: fit-content ;
         min-height: 10em;
         border-color: blue;
         border: solid;
@@ -949,9 +949,19 @@ user-select: none;
         align-items: center;
         /* justify-content: center; */
         /* align-content: space-between; */
-        margin: 10px 5vw 2vh 5vw ;
+        margin: 10px 5vw 10em 5vw ;
+        padding-bottom: 2em;
         padding-top: 20px ;
         text-align: center;
+    }
+    #project:hover{
+        transform: scale(1.01);
+        height: fit-content ;
+        border-color: blue;
+        overflow-y: visible;
+    
+        transition: 800ms;
+        animation: border-change infinite 500ms;
     }
     .women-project{
         padding-top: 10px;
